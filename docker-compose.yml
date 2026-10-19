@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    image: turatbekuly-amir-devops
+    container_name: turatbekuly-amir-container
+    environment:
+      STUDENT_NAME: Amir
+      STUDENT_SURNAME: Turatbekuly
+      STUDENT_GROUP: "2309"
+      STUDENT_ID: "37776"
+    command: sh -c "./app.sh && sleep 600"
