@@ -1,0 +1,5 @@
+Name: Amir
+Surname: Turatbekuly
+Group: 2309
+Student ID: 37776
+Course: DevOps
